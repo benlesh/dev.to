@@ -46,7 +46,7 @@ ActiveRecord::Migration.maintain_test_schema!
 # allow browser websites, so that "webdrivers" can access their binaries
 # see <https://github.com/titusfortner/webdrivers/wiki/Using-with-VCR-or-WebMock>
 allowed_sites = [
-  "chromedriver.storage.googleapis.com",
+  /chromedriver.storage.googleapis.com/,
   "github.com/mozilla/geckodriver/releases",
   "selenium-release.storage.googleapis.com",
   "developer.microsoft.com/en-us/microsoft-edge/tools/webdriver",
