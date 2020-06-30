@@ -47,7 +47,7 @@ ActiveRecord::Migration.maintain_test_schema!
 # see <https://github.com/titusfortner/webdrivers/wiki/Using-with-VCR-or-WebMock>
 allowed_sites = [
   /chromedriver.storage.googleapis.com/,
-  "github.com/mozilla/geckodriver/releases",
+  /github.com\/mozilla\/geckodriver\/releases/,
   "selenium-release.storage.googleapis.com",
   "developer.microsoft.com/en-us/microsoft-edge/tools/webdriver",
   "api.knapsackpro.com",
